@@ -83,7 +83,7 @@ on GitHub's website for instructions to get started with git and GitHub.
 
 ## 4. Join gitter channel
 
-We're hanging out on [gitter.im][gitter-monogodb-js], join the channel to stay
+We're hanging out on [gitter.im][gitter-mongodb-js], join the channel to stay
 up to date or ask questions.
 
 [install-linux]: https://nodesource.com/blog/nodejs-v012-iojs-and-the-nodesource-linux-repositories
