@@ -56,7 +56,7 @@ on GitHub's website for instructions to get started with git and GitHub.
 
 ## 5. Join gitter channel
 
-We're hanging out on [gitter.im][gitter-monogodb-js], join the channel to stay
+We're hanging out on [gitter.im][gitter-mongodb-js], join the channel to stay
 up to date or ask questions.
 
 ## Linux Setup
