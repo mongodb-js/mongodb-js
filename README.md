@@ -1,7 +1,5 @@
 # mongodb-js
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mongodb-js/mongodb-js)
-
 Hi, welcome to mongodb-js, a collective of JavaScript that does things to or with MongoDB.
 
 <dl>
