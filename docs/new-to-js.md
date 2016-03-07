@@ -14,11 +14,12 @@
 
 ## Newsletters
 
-- [dailyjs](http://dailyjs.com/)
 - [nodeweekly](http://nodeweekly.com/)
 - [dashingd3js](https://www.dashingd3js.com/)
 - [dbweekly](http://dbweekly.com/)
 - [software lead weekly](http://softwareleadweekly.com/)
+- [dbweekly](http://dbweekly.com/)
+- [reactweekly](http://reactjsnewsletter.com/)
 
 ## References
 
