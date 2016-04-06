@@ -1,6 +1,6 @@
 # mongodb-js
 
-Hi, welcome to mongodb-js, a collective of JavaScript that does things to or with MongoDB.
+Hi, welcome to mongodb-js, a collective of JavaScript developers and code focused on interacting with MongoDB.
 
 <dl>
   <dt><a href="./docs/setup.md">Setup</a></dt>
@@ -36,4 +36,3 @@ Hi, welcome to mongodb-js, a collective of JavaScript that does things to or wit
   <dt><a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Amongodb-js&user=mongodb-js">Where can I help?</a></dt>
   <dd>GitHub's open issues dashboard aggregates across all of mongodb-js and is a great place to find easy ways you can start contributing today.</dd>
 </dl>
-
