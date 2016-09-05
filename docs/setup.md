@@ -2,9 +2,14 @@
 
 ## OSX Setup
 
-### 1. Install XCode
+### 1. Install XCode Developer Tools
 
-You can easily [install XCode from the App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).
+```
+xcode-select --install
+```
+
+Note: You should not need the full [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).
+
 
 ### 2. Install Homebrew
 
