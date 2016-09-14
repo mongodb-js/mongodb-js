@@ -13,21 +13,22 @@ Note: You should not need the full [XCode](https://itunes.apple.com/us/app/xcode
 
 ### 2. Install Homebrew
 
-[Homebrew](http://brew.sh/) is a package manager for OSX.  You can install it simply by pasting the below into your terminal:
+[Homebrew](http://brew.sh/) is a package manager for OSX.
 
-```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+Please follow the installation instructions at http://brew.sh/
 
 ### 3. Install python, node.js, and npm
 
-Python may be required for working with some projects.  Installing node.js will provide you with the `node` and `npm` commands.
+To install ``node-version-manager``, please follow:
+
+https://github.com/creationix/nvm#install-script
+
+Python may be required for working with some projects, though OSX has it built in. Installing node.js will provide you with the `node` and `npm` commands.
 
 ```
-brew install python nodejs;
-sudo easy_install pip;
-pip install pyobjc;
-npm install -g node-gyp;
+# brew install nvm;  # Note: nvm discourages installation by brew
+nvm install 6.3.1;
+nvm alias default 6.3.1;
 ```
 
 ## 4. Setup git and GitHub
@@ -35,10 +36,6 @@ npm install -g node-gyp;
 See [Setting up Git][git-setup]
 on GitHub's website for instructions to get started with git and GitHub.
 
-## 5. Join gitter channel
-
-We're hanging out on [gitter.im][gitter-mongodb-js], join the channel to stay
-up to date or ask questions.
 
 ## Windows Setup
 
@@ -59,10 +56,6 @@ Python may be required for working with some projects so just [download and run 
 See [Setting up Git][git-setup]
 on GitHub's website for instructions to get started with git and GitHub.
 
-## 5. Join gitter channel
-
-We're hanging out on [gitter.im][gitter-mongodb-js], join the channel to stay
-up to date or ask questions.
 
 ## Linux Setup
 
@@ -86,13 +79,8 @@ a current version of node.js. (Note: the article is also linked from
 See [Setting up Git][git-setup]
 on GitHub's website for instructions to get started with git and GitHub.
 
-## 4. Join gitter channel
-
-We're hanging out on [gitter.im][gitter-mongodb-js], join the channel to stay
-up to date or ask questions.
 
 [install-linux]: https://nodesource.com/blog/nodejs-v012-iojs-and-the-nodesource-linux-repositories
 [node-download]: https://nodejs.org/download/
 [node-wiki-install]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 [git-setup]: https://help.github.com/articles/set-up-git/#setting-up-git
-[gitter-mongodb-js]: https://gitter.im/mongodb-js/mongodb-js
