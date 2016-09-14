@@ -23,7 +23,7 @@ Hi, welcome to mongodb-js, a collective of JavaScript developers and code focuse
   <dd>
     Our favorite plugins and add-ons that make us happier and more productive.
   </dd>
-  <dt><a href="./docs/transferring.md">Transfering Projects</a></dt>
+  <dt><a href="./docs/transferring.md">Transferring Projects</a></dt>
   <dd>
     How and why to transfer projects from your personal GitHub account into
     the mongodb-js organization.
