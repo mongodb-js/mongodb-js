@@ -43,31 +43,31 @@ Get information about packages on https://atom.io/packages/.
 See also https://discuss.atom.io/t/installed-packages-list-into-single-file/12227/2.
 
 ```
-Sublime-Style-Column-Selection@1.7.2
-afterglow-monokai-syntax@1.3.4
-atom-jade@0.3.0
-atom-jsfmt@0.8.5
-atom-pair@2.0.10
-blackboard@1.0.0
-cobalt@0.3.0
-dash@1.6.2
-docblockr@0.8.5
-file-icons@1.7.19
-fizzy@0.16.0
-gist-it@0.9.1
-git-plus@5.17.0
-language-javascript-jsx@0.3.7
-linter@1.11.16
-linter-eslint@7.3.1
-linter-python-pep8@0.2.0
-merge-conflicts@1.4.4
-minimap@4.25.0
-mocha-test-runner@0.5.1
-motepair@0.21.0
-pigments@0.34.0
-pretty-json@1.6.0
-regex-railroad-diagram@0.16.0
-seti-ui@1.3.2
+Sublime-Style-Column-Selection
+afterglow-monokai-syntax
+atom-jade
+atom-jsfmt
+atom-pair
+blackboard
+cobalt
+dash
+docblockr
+file-icons
+fizzy
+gist-it
+git-plus
+language-javascript-jsx
+linter
+linter-eslint
+linter-python-pep8
+merge-conflicts
+minimap
+mocha-test-runner
+motepair
+pigments
+pretty-json
+regex-railroad-diagram
+seti-ui
 ```
 
 
