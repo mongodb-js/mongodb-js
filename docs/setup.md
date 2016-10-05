@@ -1,6 +1,6 @@
 # Setup
 
-## OSX Setup
+## Mac OS Setup
 
 ### 1. Install XCode Developer Tools
 
@@ -13,7 +13,7 @@ Note: You should not need the full [XCode](https://itunes.apple.com/us/app/xcode
 
 ### 2. Install Homebrew
 
-[Homebrew](http://brew.sh/) is a package manager for OSX.
+[Homebrew](http://brew.sh/) is a package manager for Mac OS.
 
 Please follow the installation instructions at http://brew.sh/
 
@@ -23,7 +23,7 @@ To install ``node-version-manager``, please follow:
 
 https://github.com/creationix/nvm#install-script
 
-Python may be required for working with some projects, though OSX has it built in. Installing node.js will provide you with the `node` and `npm` commands.
+Python may be required for working with some projects, though Mac OS has it built in. Installing node.js will provide you with the `node` and `npm` commands.
 
 ```
 # brew install nvm;  # Note: nvm discourages installation by brew
