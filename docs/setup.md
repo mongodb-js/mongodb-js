@@ -53,9 +53,46 @@ Python may be required for working with some projects so just [download and run 
 
 ## 4. Setup git and GitHub
 
-See [Setting up Git][git-setup]
-on GitHub's website for instructions to get started with git and GitHub.
+See [Setting up Git][git-setup] on GitHub's website for instructions to get started with git and GitHub.
 
+Install [psget](http://psget.net/)
+
+```
+Host github.com
+  User git
+  Port 22
+  Hostname github.com
+  IdentityFile ~/.ssh/id_rsa
+  TCPKeepAlive yes
+  IdentitiesOnly yes
+  ForwardAgent yes
+```
+
+## 5. Update environment variables
+
+1. Open a new Explorer window and search for `Control Panel`:
+  ![](images/windows-env-variables-1.png)
+2. In `Control Panel`, search for `env` to find the `Edit environment
+  variables for your account` link:
+  ![](images/windows-env-variables-2.png)
+3. Click on the `path` row and then click `Edit`:
+  ![](images/windows-env-variables-3.png)
+4. Paste the below in `Variable Value` text field and click `OK`:
+
+  ```
+  %path%;C:\Python27;C:\Program Files (x86)\Git\bin;%USERPROFILE%\AppData\Roaming\npm;
+  ```
+5. Click the `New` button to create a new `HOME` environment variable with
+  the value `` and click `OK`:
+  ![](images/windows-env-variables-4.png)
+6. Click `OK` again to close the `Environment Variables` dialog
+7. Open `PowerShell` and run the below to verify everything is working correctly!
+
+  ```
+  ssh -T git@github.com
+  ```
+
+> @todo: instructions for using windows via Parallels.
 
 ## Linux Setup
 
@@ -84,3 +121,8 @@ on GitHub's website for instructions to get started with git and GitHub.
 [node-download]: https://nodejs.org/download/
 [node-wiki-install]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 [git-setup]: https://help.github.com/articles/set-up-git/#setting-up-git
+<<<<<<< Updated upstream
+=======
+[gitter-mongodb-js]: https://gitter.im/mongodb-js/mongodb-js
+[windows-environment-variables]: https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/sysdm_advancd_environmnt_addchange_variable.mspx?mfr=true
+>>>>>>> Stashed changes
