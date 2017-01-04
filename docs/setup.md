@@ -59,6 +59,9 @@ on GitHub's website for instructions to get started with git and GitHub.
 
 ## Linux Setup
 
+
+## Debian / Ubuntu
+
 ### 1. Install dependencies
 
 ```
@@ -80,7 +83,38 @@ See [Setting up Git][git-setup]
 on GitHub's website for instructions to get started with git and GitHub.
 
 
+## CentOS / Fedora / Red Hat
+
+### 1. Install VirtualBox Guest Additions
+
+This will get you some useful things like `gcc`, otherwise you may need to install other dependencies:
+
+```
+1. Install RHEL 6 minimal installation
+2. Do a full `yum update`
+3. `yum install kernel-devel gcc make patch`
+4. Reboot
+5. Mount VirtualBox Tools iso and try to install the Guest additions
+```
+https://access.redhat.com/discussions/1519903#comment-942153
+
+### 2. Install node v6 LTS
+
+`curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -`
+
+https://nodejs.org/en/download/package-manager/#enterprise-linux-and-fedora
+
+### 3. Install git and GitHub
+
+See [Setting up Git][git-setup]
+on GitHub's website for instructions to get started with git and GitHub.
+
+Note: RHEL v6 is so far behind that you may prefer to build your own from the source, which is not hard to do:
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#Installing-from-Source
+
+
 [install-linux]: https://nodesource.com/blog/nodejs-v012-iojs-and-the-nodesource-linux-repositories
 [node-download]: https://nodejs.org/download/
 [node-wiki-install]: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 [git-setup]: https://help.github.com/articles/set-up-git/#setting-up-git
+
