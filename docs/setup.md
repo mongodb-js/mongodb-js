@@ -31,7 +31,7 @@ nvm install 6.3.1;
 nvm alias default 6.3.1;
 ```
 
-## 4. Setup git and GitHub
+### 4. Setup git and GitHub
 
 See [Setting up Git][git-setup]
 on GitHub's website for instructions to get started with git and GitHub.
@@ -39,19 +39,19 @@ on GitHub's website for instructions to get started with git and GitHub.
 
 ## Windows Setup
 
-## 1. Install Visual Studio 2013 or higher
+### 1. Install Visual Studio 2013 or higher
 
 You can download the [community edition for free](http://www.visualstudio.com/products/visual-studio-community-vs).
 
-## 2. Install Python
+### 2. Install Python
 
 Python may be required for working with some projects so just [download and run the installer](http://www.python.org/download/releases/2.7/).
 
-## 3. Install node.js
+### 3. Install node.js
 
 [Download and run the installer][node-download] to get `node` and `npm`.
 
-## 4. Setup git and GitHub
+### 4. Setup git and GitHub
 
 See [Setting up Git][git-setup]
 on GitHub's website for instructions to get started with git and GitHub.
@@ -59,7 +59,7 @@ on GitHub's website for instructions to get started with git and GitHub.
 
 ## Linux Setup
 
-## 1. Install dependencies
+### 1. Install dependencies
 
 ```
 sudo apt-get install build-essential clang libdbus-1-dev libgtk2.0-dev \
@@ -68,13 +68,13 @@ sudo apt-get install build-essential clang libdbus-1-dev libgtk2.0-dev \
                        libxss1 gcc-multilib g++-multilib
 ```
 
-## 2. Install node.js and npm
+### 2. Install node.js and npm
 
 Check [this article][install-linux] on how to install
 a current version of node.js. (Note: the article is also linked from
 [node's wiki page][node-wiki-install].)
 
-## 3. Setup git and GitHub
+### 3. Setup git and GitHub
 
 See [Setting up Git][git-setup]
 on GitHub's website for instructions to get started with git and GitHub.
