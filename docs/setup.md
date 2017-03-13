@@ -27,8 +27,8 @@ Python may be required for working with some projects, though macOS has it built
 
 ```
 # brew install nvm;  # Note: nvm discourages installation by brew
-nvm install 6.3.1;
-nvm alias default 6.3.1;
+nvm install 7.4;
+nvm alias default 7.4;
 ```
 
 ### 4. Setup git and GitHub
