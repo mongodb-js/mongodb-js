@@ -73,9 +73,7 @@ sudo apt-get install build-essential clang libdbus-1-dev libgtk2.0-dev \
 
 ### 2. Install node.js and npm
 
-Check [this article][install-linux] on how to install
-a current version of node.js. (Note: the article is also linked from
-[node's wiki page][node-wiki-install].)
+Visit [Node.js](https://nodejs.org/en/).
 
 ### 3. Setup git and GitHub
 
